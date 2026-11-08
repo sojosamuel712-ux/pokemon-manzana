@@ -8,16 +8,13 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+/backend/
 dist
 dist-ssr
 *.local
 .env
 .env.*
 !.env.example
-backend/.env
-
-backend/db/*.sqlite
-
 # Pokémon cries are fetched directly from PokeAPI and are not used by the app.
 Cries/
 

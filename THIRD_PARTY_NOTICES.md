@@ -24,8 +24,8 @@ Battle cries are streamed directly from [PokeAPI/cries](https://github.com/PokeA
 
 | Resource | Location | Source/license status |
 |---|---|---|
-| Pokémon sprites and animations | `models/` | The project owner reports these are from Pokémon Showdown and covered by its MIT license. |
-| Items, sprites, and battle effects | `items/`, `public/`, `fx/` | The project owner reports these are from Pokémon Showdown and covered by its MIT license. The move-effectiveness GIFs were designed by the project owner. |
+| Pokémon sprites and animations | Backend repository: `models/`, `public/sprites/` | The project owner reports these are from Pokémon Showdown and covered by its MIT license. |
+| Items, sprites, and battle effects | `frontend/items/`, `frontend/public/fx/` | The project owner reports these are from Pokémon Showdown and covered by its MIT license. The move-effectiveness GIFs were designed by the project owner. |
 | Logos, maps, and other images | `src/assets/` | Reported as original project assets. |
 | Pokémon cries | Remote PokeAPI URLs | Loaded directly from [PokeAPI/cries](https://github.com/PokeAPI/cries); local `Cries/` files are no longer used or required for deployment. Review PokeAPI's current terms separately. |
 
